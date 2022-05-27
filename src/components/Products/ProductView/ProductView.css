@@ -1,0 +1,29 @@
+.principalDivProduct{
+    position: absolute;
+    background-color: white;
+    border-radius: 25px;
+    padding: 1em 2em 1em 1em ;
+    height: 70vh;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.leftDivProduct{
+    margin-left: 1em;
+}
+
+.qteinput{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0em 0.5em;
+    height: 2em;
+    border-radius: 15px;
+}
+
+.totalAdd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,187 @@
+
+
+.navbar{
+    padding: 0em 1em;
+      margin: -1.2em 0em 0em -2em;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-image: linear-gradient(to bottom ,#0bd4c2,#a2a5ff);
+      height: 13vh;
+      overflow: hidden;
+    }
+  
+  .navleft{
+    padding: 0em 0em 0em 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gife{
+    padding: 0em 0em 0.5em 0em;
+      width: 100px;
+  }
+  
+  .Websitename{
+    color: white;
+  }
+  
+  .searchDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .searchInput{
+    padding-left: 1em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+    width: 90%;
+    height: 5vh;
+  }
+  
+  
+  
+  .searchButton{
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    width: 5%;
+    height: 5vh;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  
+  }
+ 
+.Product_ADD{
+  margin: 1em 0em;
+  padding: 0em 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.addProduct{
+  font-size: 1.5em;
+  padding: 1em 1em;
+  margin: 0em 0em 1em 0em;
+  text-decoration: none;
+  width: 30%;
+  border-radius: 10px;
+  background-color:#3d5ec9 ;
+  color: white;
+  border: none;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.addProduct:hover{
+  background-color:white ;
+  color: #3d5ec9 ;
+  cursor: pointer;
+}
+
+.ProductDisplay{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationDiv{
+  margin: 4em 0em;
+}
+
+
+/* form */
+
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.PrincipalDivSignIn{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 95vh;
+  border-radius: 35px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input-container1 {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 80%;
+  margin: 1.5em 0em 0.5em 0em;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 25px;
+  height: 3em;
+}
+
+.icon {
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 10px;
+  background: #fff;
+  color: #3d5ec9;
+  border-right:none;
+  min-width: 50px;
+  text-align: center;
+  font-size:1em;
+  height: 3em;
+}
+
+.input-field {
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 100%;
+  font-size:1em;
+  padding: 5px;
+  outline: none;
+  border:none;
+  height: 3em;
+
+}
+  
+.input-field::placeholder {
+    color: gray;
+    font-size: 0.8em;
+}
+
+.SignUpButton{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  margin: 1em 0em 0.5em 0em ;
+  border-radius: 25px;
+  height: 3em;
+  width: 60%;
+  font-size: 1em;
+  background-color: #3d5ec9;
+  color: white;
+}
+
+.SignUpButton:hover{
+  transition: 0.5s;
+  height: 2.8em;
+  width: 40%;
+  background-color: white;
+  color: #3d5ec9;
+}
+
+.switchbutton{
+  border: none;
+  background-color: white;
+  color: #3d5ec9;
+  text-decoration: underline;
+}
+.switchbutton:hover{
+cursor:pointer;
+}

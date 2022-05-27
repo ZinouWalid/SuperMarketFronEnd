@@ -1,0 +1,85 @@
+.AdsDiv{
+    margin: 1em 1em 3em 1em;
+    height: 50vh;
+    border: 2px red solid;
+}
+
+.NameAd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border: 2px red solid;
+}
+.ImgAd{
+    overflow: scroll;
+    height: 30vh;
+
+}
+
+
+.ButtonsAd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border: 2px red solid;
+}
+
+.AdButton{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    margin: 0em 1em 0em 1em ;
+    border-radius: 25px;
+    height: 3em;
+    width: 10em;
+    font-size: 1em;
+    background-color: #3d5ec9;
+    color: white;
+  }
+  
+  .AdButton:hover{
+    transition: 0.5s;
+    height: 2.8em;
+    background-color: white;
+    color: #3d5ec9;
+  }
+
+  .Show{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    margin: 0em 1em 0em 1em ;
+    border-radius: 25px;
+    height: 3em;
+    width: 10em;
+    font-size: 1em;
+    background-color: green;
+    color: white;
+  }
+  
+  .Show:hover{
+    transition: 0.5s;
+    height: 2.8em;
+    background-color: white;
+    color: green;
+  }
+
+  .Unshow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    margin: 0em 1em 0em 1em ;
+    border-radius: 25px;
+    height: 3em;
+    width: 10em;
+    font-size: 1em;
+    background-color: red;
+    color: white;
+  }
+  
+  .Unshow:hover{
+    transition: 0.5s;
+    height: 2.8em;
+    background-color: white;
+    color: red;
+  }

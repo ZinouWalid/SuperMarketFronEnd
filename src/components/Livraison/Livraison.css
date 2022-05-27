@@ -1,0 +1,23 @@
+.principalDivLivraison{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftLivraison{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.rightLivraison{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+
+}
