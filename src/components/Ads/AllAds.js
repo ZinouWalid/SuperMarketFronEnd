@@ -1,5 +1,6 @@
 import React from "react";
 import "./ads.css";
+import Header from '../Welcome/Header'
 
 import { useEffect, useState } from "react";
 import AdViewAll from "./AdViewAll";
@@ -12,7 +13,7 @@ function AllAds() {
 
     var config = {
       method: "post",
-      url: "http://localhost/ads//get_all_ads",
+      url: "http://localhost:3001/ads//get_all_ads",
       headers: {},
     };
 
@@ -28,8 +29,10 @@ function AllAds() {
 
   return (
     <div>
+      <Header />
+      <h1 className='text-5xl font-semibold mt-4 ml-4'>Publicités : </h1>
       {Ads.map((ad) => (
-        <div className="AdsDiv">
+        <div className='mx-4'>
           <AdViewAll
             id={ad._id}
             name={ad.name}
@@ -39,7 +42,7 @@ function AllAds() {
         </div>
       ))}
     </div>
-  );
+  )
 }
 
 export default AllAds;

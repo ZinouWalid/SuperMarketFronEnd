@@ -26,7 +26,7 @@ function ProductPage() {
 
       var config = {
         method: 'post',
-        url: 'http://localhost/product/get_pages',
+        url: 'http://localhost:3001/product/get_pages',
         headers: {},
         data: data,
       }
@@ -35,7 +35,7 @@ function ProductPage() {
         .then(function (response) {
           console.log('data :' + JSON.stringify(response.data))
           const total = response.data.product
-          setpageCount(Math.ceil(total / limit))
+          setpageCount(Math.ceil(total / limit)-1)
         })
         .catch(function (error) {
           console.log(error)

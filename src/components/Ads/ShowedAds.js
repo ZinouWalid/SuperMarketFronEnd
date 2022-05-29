@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import AdViewAll from "./AdViewAll";
+import Header from '../Welcome/Header'
 
 function ShowedAds() {
   const [Ads, setAds] = useState([]);
@@ -10,7 +11,7 @@ function ShowedAds() {
 
     var config = {
       method: "post",
-      url: "http://localhost/ads//get_showed_ads",
+      url: "http://localhost:3001/ads//get_showed_ads",
       headers: {},
     };
 
@@ -25,10 +26,14 @@ function ShowedAds() {
   }, []);
   return (
     <div>
+      <Header />
+      <h1 className='text-5xl font-semibold mt-4 ml-4'>
+        Publicités publiées :{' '}
+      </h1>
       {Ads.map((ad) => (
-        <div className="AdsDiv">
+        <div className='mx-4'>
           <AdViewAll
-            showedPage="true"
+            showedPage='true'
             id={ad._id}
             name={ad.name}
             showed={ad.showed}
@@ -37,7 +42,7 @@ function ShowedAds() {
         </div>
       ))}
     </div>
-  );
+  )
 }
 
 export default ShowedAds;

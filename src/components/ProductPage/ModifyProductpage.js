@@ -68,7 +68,7 @@ function ModifyProductpage() {
 
     var config = {
       method: 'post',
-      url: 'http://localhost:3001/product/modify_product',
+      url: 'http://localhost/product/modify_product',
       headers: {
         'Content-Type': 'application/json',
       },
@@ -196,7 +196,7 @@ function ModifyProductpage() {
             }
             onClick={UpdateProduct}
           >
-            UPDATE{' '}
+            Mis à jour
           </button>
         </div>
       </div>
