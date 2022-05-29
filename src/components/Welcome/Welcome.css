@@ -1,33 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Amatic SC', cursive;
-    font-family: 'Mochiy Pop One', sans-serif;
-  }
-  
-  .nav{
-    padding: 0em 0em 0em 2em;
-    display: flex;
-    align-items: center;
-    height: 10vh;
-    background-image: linear-gradient(to bottom ,#0bd4c2,#a2a5ff);
-    background-color: #3d5ec9;
-  }
-  
-  .gif{
-    margin-right: 2em;
-transform: scale(3);  }
-  
-  .WebsiteName{
-    font-size: 1.5em;
-    color: white;
-    font-family: 'Shojumaru', cursive;
-  }
-  
-.PrincipalDiv{
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  padding: 0em 0em 0em 2em;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  background-image: linear-gradient(to bottom, #0bd4c2, #a2a5ff);
+  background-color: #3d5ec9;
+}
+
+.gif {
+  margin-right: 2em;
+  transform: scale(3);
+}
+
+.WebsiteName {
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Shojumaru', cursive;
+}
+
+.PrincipalDiv {
   height: 90vh;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -43,18 +42,6 @@ transform: scale(3);  }
 }
 
 .LikeButton:hover {
- background-color: gray;
- color: white;
-
+  background-color: gray;
+  color: white;
 }
-
-  
-
-  
-
- 
-
-  
-
-  
-  

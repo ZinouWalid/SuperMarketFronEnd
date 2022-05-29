@@ -1,6 +1,7 @@
 import React from "react";
 import "./Livraison.css";
 import { useEffect, useState } from "react";
+import Header from '../Welcome/Header'
 
 function Livraison() {
   const [Wilaya, setWilaya] = useState("");
@@ -20,7 +21,7 @@ function Livraison() {
 
     var config = {
       method: "post",
-      url: "http://localhost/wilaya/get_all_wilayas",
+      url: "http://localhost:3001/wilaya/get_all_wilayas",
       headers: {},
     };
 
@@ -43,7 +44,7 @@ function Livraison() {
 
     var config = {
       method: "post",
-      url: "http://localhost/wilaya/get_communes_by_wilayas",
+      url: "http://localhost:3001/wilaya/get_communes_by_wilayas",
       headers: {
         "Content-Type": "application/json",
       },
@@ -68,7 +69,7 @@ function Livraison() {
 
     var config = {
       method: "post",
-      url: "http://localhost/wilaya/get_communes_by_wilayas",
+      url: "http://localhost:3001/wilaya/get_communes_by_wilayas",
       headers: {
         "Content-Type": "application/json",
       },
